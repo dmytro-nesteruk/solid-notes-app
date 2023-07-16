@@ -1,0 +1,29 @@
+{
+	"name": "signals",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"solid-js": "^1.7.7",
+		"uuid": "^9.0.0"
+	},
+	"devDependencies": {
+		"@types/uuid": "^9.0.2",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"eslint": "^8.45.0",
+		"eslint-plugin-solid": "^0.12.1",
+		"typescript": "^5.0.2",
+		"vite": "^4.4.0",
+		"vite-plugin-solid": "^2.7.0",
+		"vite-tsconfig-paths": "^4.2.0"
+	},
+	"engines": {
+		"node": ">=16.0.0"
+	}
+}

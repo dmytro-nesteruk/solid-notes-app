@@ -1,0 +1,29 @@
+.root {
+	position: absolute;
+	display: flex;
+}
+
+.cross {
+	border: none;
+	border-radius: 0 4px 4px 0;
+
+	font-size: 16px;
+
+	cursor: pointer;
+}
+
+.textarea {
+	width: 300px;
+	height: 300px;
+
+	padding: 10px 30px 10px 10px;
+
+	resize: none;
+
+	border: 2px dashed darkorange;
+	border-radius: 12px 0 12px 12px;
+	box-shadow: 5px 5px 10px #00000022;
+
+	font-family: monospace;
+	font-size: 16px;
+}

@@ -1,0 +1,27 @@
+.header {
+	display: flex;
+
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	align-items: center;
+	padding: 0 20px;
+
+	background: darkorange;
+}
+
+.button {
+	padding: 8px 24px;
+	box-shadow: 0 0 5px #00000099;
+	text-transform: uppercase;
+	font-family: monospace;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.content {
+	position: relative;
+}
