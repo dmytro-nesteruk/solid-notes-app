@@ -1,7 +1,7 @@
 {
-	"name": "signals",
+	"name": "solid-notes-app",
 	"private": true,
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -22,6 +22,10 @@
 		"vite": "^4.4.0",
 		"vite-plugin-solid": "^2.7.0",
 		"vite-tsconfig-paths": "^4.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/m31odyWeb/solid-notes-app"
 	},
 	"engines": {
 		"node": ">=16.0.0"
